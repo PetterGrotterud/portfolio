@@ -12,13 +12,13 @@ function About() {
         <h4>Welcome to my Page! </h4>
         <p>
           I'm Petter, originally from Norway, and I've been living in New York
-          City since 2022. I'm currently working as a Technical Program Manager.
-          In my spare time, I enjoy playing guitar at various clubs around NYC.
-          When I’m not playing music, I like to dive into tech projects,
-          especially working on improving my React and JavaScript skills. Feel
-          free to check out my recent work on the Projects page, and don't
-          hesitate to reach out if you have any questions or are interested in
-          collaborating!
+          City since 2022. I work in the tech industry, focusing on managing
+          projects that bring innovative solutions to life. In my spare time, I
+          enjoy playing guitar at various clubs around NYC. When I’m not playing
+          music, I like to dive into tech projects, especially working on
+          improving my React and JavaScript skills. Feel free to check out my
+          recent work on the Projects page, and don't hesitate to reach out if
+          you have any questions or are interested in collaborating!
         </p>
       </article>
     </div>
