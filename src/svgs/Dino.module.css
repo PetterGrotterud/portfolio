@@ -1,0 +1,9 @@
+.svg {
+  scale: 0.8;
+}
+
+@media (max-width: 700px) {
+  .svg {
+    scale: 0.5;
+  }
+}

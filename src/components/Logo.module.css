@@ -1,0 +1,16 @@
+.logoGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logoGroup h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+@media (max-width: 700px) {
+  .logoGroup h2 {
+    font-size: 2rem;
+  }
+}

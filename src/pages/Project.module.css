@@ -1,0 +1,31 @@
+.project {
+  margin: 3rem auto;
+  max-width: 700px;
+  position: relative;
+}
+
+/* @media (min-width: 1000px) {
+  .project {
+    margin: 3rem auto;
+  }
+} */
+
+.text h2 {
+  font-weight: 500;
+  color: var(--grey_dark);
+  font-size: 2rem;
+}
+
+.text p {
+  font-family: "poppins";
+}
+
+.container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.infoWindow {
+  margin-left: 1.5rem;
+}

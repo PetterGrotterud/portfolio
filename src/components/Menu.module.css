@@ -1,0 +1,26 @@
+.mainMenu ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 2rem;
+  font-size: 1.4rem;
+  color: var(--grey_light);
+}
+
+.mainMenu li {
+  cursor: pointer;
+}
+
+.mainMenu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.active {
+  color: black;
+}
+
+/* CSS Modules feature */
+.mainMenu a:global(.active) {
+  color: var(--grey_dark);
+}
