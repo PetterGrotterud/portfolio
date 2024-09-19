@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styles from "./Window.module.css";
 function Window({ project }) {
   console.log(project);
@@ -10,7 +9,7 @@ function Window({ project }) {
           <p key={el}>{el}</p>
         ))}
       </div>
-      <a href={`https://${project.link}`} className="link">
+      <a href={`https://${project.link}`} target="_blank" className="link">
         <div className={styles.windowLink}>
           <span>{`View in ${
             project.inProduction ? "production" : "test"

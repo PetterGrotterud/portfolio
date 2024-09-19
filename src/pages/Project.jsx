@@ -1,13 +1,21 @@
-import styles from "./Project.module.css";
+import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import projects from "../utils/projects";
 import Window from "../components/Window";
 import SvgBack from "../svgs/SvgBack";
+import styles from "./Project.module.css";
+
 function Project() {
   const navigate = useNavigate();
   const { name } = useParams();
   const project = projects.find((cur) => cur.name === name);
-  console.log(project);
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+    });
+  }, []);
 
   const handleBackClick = function () {
     console.log("click");
