@@ -2,6 +2,7 @@ const projects = [
   {
     name: "Sipsaver-webApp",
     header: "App showing all happy hours in NYC",
+    inProduction: true,
     link: "www.sipsaver.nyc",
     image: "sipsaver_logo_small.png",
     imageLarge: "sipsaver_logo_large.png",
@@ -12,6 +13,7 @@ const projects = [
   {
     name: "Sipsaver-API",
     header: "Details about happy hours in New York city.",
+    inProduction: true,
     link: "www.api.sipsaver.nyc",
     image: "sipsaver-api_logo_small.png",
     imageLarge: "sipsaver-api_logo_large.png",
@@ -22,6 +24,7 @@ const projects = [
   {
     name: "summarizer",
     header: "Translates audio files to summarized text",
+    inProduction: false,
     link: "summarizer-1rsl.onrender.com/",
     image: "summarizer_logo_small.png",
     imageLarge: "summarizer_logo_large.png",
@@ -32,6 +35,7 @@ const projects = [
   {
     name: "AI search",
     header: "Schemantic search on your internal documents",
+    inProduction: false,
     link: "aisearch-7a9n.onrender.com/",
     image: "aisearch_logo_small.png",
     imageLarge: "aisearch_logo_large.png",

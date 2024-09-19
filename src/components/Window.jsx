@@ -12,7 +12,9 @@ function Window({ project }) {
       </div>
       <a href={`https://${project.link}`} className="link">
         <div className={styles.windowLink}>
-          <span>View in production</span>
+          <span>{`View in ${
+            project.inProduction ? "production" : "test"
+          }`}</span>
         </div>
       </a>
     </>
