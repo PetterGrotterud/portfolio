@@ -11,14 +11,13 @@ function About() {
       <article>
         <h4>Welcome to my Page! </h4>
         <p>
-          I'm Petter, originally from Norway, and I've been living in New York
-          City since 2022. I work in the tech industry, focusing on managing
-          projects that bring innovative solutions to life. In my spare time, I
-          enjoy playing guitar at various clubs around NYC. When I’m not playing
-          music, I like to dive into tech projects, especially working on
-          improving my React and JavaScript skills. Feel free to check out my
-          recent work on the Projects page, and don't hesitate to reach out if
-          you have any questions or are interested in collaborating!
+          I'm Petter, originally from Norway, and I’ve been living in New York
+          City since 2022. I work as a Technical Program Manager in the tech
+          industry, where I lead projects that turn innovative ideas into real
+          solutions. Outside of work, I enjoy playing guitar at clubs around NYC
+          and diving into side projects that sharpen my React and JavaScript
+          skills. You can explore some of my recent work on the Projects page —
+          and feel free to reach out if you’d like to connect or collaborate!
         </p>
       </article>
     </div>
