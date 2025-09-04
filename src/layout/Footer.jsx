@@ -3,7 +3,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <p>©️ Petter Martin 2024</p>
+        <p>©️ Petter Martin 2025</p>
       </div>
     </footer>
   );
